@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "da9b7a1dc1dd923105198c572cc7df8d",
+    "content-hash": "39736a4e6b4e584bc71ffc2d92067a02",
     "packages": [
         {
             "name": "brick/math",
@@ -5691,6 +5691,42 @@
                 "source": "https://github.com/webmozarts/assert/tree/1.11.0"
             },
             "time": "2022-06-03T18:03:27+00:00"
+        },
+        {
+            "name": "wojtalak/laravel-recaptcha-v3",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "packages/wojtalak/laravel-recaptcha-v3",
+                "reference": "f35dbc8af66b6baa2515ebcbedd348052158a205"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Wojtalak\\LaravelRecaptchaV3\\Providers\\LaravelRecaptchaV3ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Wojtalak\\LaravelRecaptchaV3\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kamil Wojtalak",
+                    "email": "contact@wojtalak.com"
+                }
+            ],
+            "description": "Laravel reCaptcha v3 implementation.",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         }
     ],
     "packages-dev": [
